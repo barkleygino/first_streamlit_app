@@ -1,5 +1,9 @@
 import streamlit
 import pandas
+import requests
+
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
 
 #https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html 
 
