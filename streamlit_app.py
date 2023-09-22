@@ -1,5 +1,6 @@
 import streamlit
 import pandas
+import snowflake.connector
 
 #https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html 
 
