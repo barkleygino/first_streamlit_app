@@ -61,7 +61,7 @@ if streamlit.button('Get Fruit Load List'):
       my_data_rows = fet_fruit_load_list()
       streamlit.dataframe(my_data_rows)
 
-
+streamlit.stop()
 
 
 my_data_row = my_cur.fetchall()
